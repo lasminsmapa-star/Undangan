@@ -79,7 +79,7 @@ function startCountdown() {
 
     const el = document.getElementById("countdown");
     if (el) {
-      el.innerHTML = "Acara dalam: " + d + " hari " + h + " jam " + m + " menit " + s + " detik";
+      el.innerHTML = d + " hari " + h + " jam " + m + " menit " + s + " detik";
     }
   }, 1000);
 }
