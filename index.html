@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Halal Bihalal SMABA</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- COVER -->
+<section id="cover">
+<div class="cover-box">
+<h1>Halal Bihalal</h1>
+<h2>SMA Negeri 1 Batangan</h2>
+<p>Kepada Yth</p>
+<h3 id="namaTamu"></h3>
+<button onclick="bukaUndangan()">Buka Undangan</button>
+</div>
+</section>
+
+<!-- CONTENT -->
+<section id="content">
+
+<img src="logo.png" class="logo">
+
+<h1>Halal Bihalal</h1>
+<p>Keluarga Besar SMA Negeri 1 Batangan</p>
+
+<div class="detail">
+<p>Hari : Rabu</p>
+<p>Tanggal : 25 Maret 2026</p>
+<p>Waktu : 09.00 WIB</p>
+<p>Tempat : Rumah Makan Padang Bumimulyo</p>
+</div>
+
+<h3>Menuju Acara</h3>
+<div id="countdown"></div>
+
+<h3>Konfirmasi Kehadiran</h3>
+
+<form id="formHadir">
+<input type="text" id="nama" placeholder="Nama Anda" required>
+<select id="hadir">
+<option value="Hadir">Hadir</option>
+<option value="Tidak Hadir">Tidak Hadir</option>
+</select>
+<button type="submit">Kirim Konfirmasi</button>
+</form>
+
+<p id="status"></p>
+
+</section>
+
+<audio id="musik" loop>
+<source src="musik.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+<div id="guestName" style="text-align:center; font-size:20px; margin-top:10px;"></div>
+<div id="countdown" style="text-align:center; font-size:18px; margin-top:10px;"></div>
+
+</body>
+</html>

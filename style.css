@@ -1,0 +1,66 @@
+body{
+margin:0;
+font-family:Poppins;
+background:#0d1b2a;
+color:white;
+text-align:center;
+}
+
+#cover{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url('https://i.imgur.com/fiqVJuj.jpg');
+background-size:cover;
+}
+
+.cover-box{
+background:rgba(255,255,255,0.1);
+padding:40px;
+border-radius:20px;
+backdrop-filter:blur(10px);
+}
+
+h1{
+font-family:'Playfair Display';
+color:gold;
+}
+
+button{
+background:gold;
+border:none;
+padding:12px 25px;
+border-radius:10px;
+cursor:pointer;
+}
+
+#content{
+display:none;
+padding:40px 20px;
+}
+
+.logo{
+width:100px;
+margin-bottom:20px;
+}
+
+.detail{
+font-size:18px;
+margin:20px 0;
+}
+
+#countdown{
+font-size:28px;
+color:gold;
+margin:20px 0;
+}
+
+input,select{
+width:250px;
+padding:10px;
+margin:10px;
+border-radius:8px;
+border:none;
+}
