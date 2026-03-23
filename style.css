@@ -64,27 +64,16 @@ margin:10px;
 border-radius:8px;
 border:none;
 }
-.running-text {
-  width: 100%;
-  overflow: hidden;
-  background: linear-gradient(90deg, #0a7b3e, #16a34a);
-  color: white;
-  padding: 10px 0;
-  margin-top: 10px;
-  border-radius: 8px;
-}
-
 .running-content {
   display: inline-block;
   white-space: nowrap;
-  padding-left: 100%;
-  animation: jalan 10s linear infinite;
+  animation: jalan 12s linear infinite;
   font-weight: bold;
 }
 
 @keyframes jalan {
   0% {
-    transform: translateX(0%);
+    transform: translateX(100%);
   }
   100% {
     transform: translateX(-100%);
