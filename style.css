@@ -40,19 +40,21 @@ cursor:pointer;
 display:none;
 padding:40px 20px;
 }
-
 .logo-container {
   display: flex;
   justify-content: center;
-  align-items: center; /* ini bikin sejajar tengah */
-  gap: 20px;
+  align-items: center;
+  gap: 25px;
   margin-bottom: 15px;
 }
 
 .logo, .logo1 {
   width: 90px;
   height: 90px;
-  object-fit: contain; /* penting supaya proporsional */
+  object-fit: contain;
+  background: white;        /* biar rapi (opsional) */
+  padding: 5px;             /* kasih ruang */
+  border-radius: 10px;      /* biar halus */
 }
 
 .detail{
